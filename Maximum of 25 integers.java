@@ -1,17 +1,14 @@
 import java.util.*;
 public class Main{
-  public static void main(string[] args){
-    Scanner sc = new Scanner(System.in);
-    int numerArray[] = new int[25];
-    for(int index=0;index<25;index++){
-      numberArray[index]=sc.nextInt();
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int arr[]=new int[25];
+        int max=arr[0];
+        int i;
+        for(i=0;i<arr.length;i++){
+            if(arr[i]>max)
+                max=arr[i];
+        }
+        System.out.println("Maximum number in array is "+max);
     }
-    int max=numberArray[0];
-    for(int index=1;index<25;index++){
-      if(numberArray[index]>max){
-        max = numberArray[index];
-      }
-    }
-    System.out.println(max);
-  }
 }
